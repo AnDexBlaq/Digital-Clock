@@ -55,3 +55,39 @@ h2{
     background: greenyellow;
     color: maroon;
 }
+/*------------------------------mobile view-------------------*/
+@media only screen and (max-width: 600px){
+
+    .clock span{
+        width: 80px;
+        height: 60px;
+        background-color: slateblue;
+        opacity: .8;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+    .clock .text{
+        height: 30px;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background: darkblue;
+        opacity: .8;
+    }
+    .clock #ampm{
+        bottom: 0;
+        position: absolute;
+        width: 80px;
+        height: 90px;
+        font-size: 25px;
+        font-weight: bold;
+        background: greenyellow;
+        color: maroon;
+    }
+
+
+}
