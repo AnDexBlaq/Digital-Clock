@@ -84,6 +84,7 @@ h2{
         opacity: .8;
     }
     .clock #ampm{
+        margin-right: 10px;
         bottom: 0;
         position: absolute;
         width: 80px;
